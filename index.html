@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header class="header" id="head">
+        <a href="" class="logo">Portfolio</a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#"> Work</a></li>
+            <li><a href="#"> Testemonial</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="textBX">
+            <h1>Hello, I'm <br><span>ATIURRAHMAN</span></h1>
+            <h2>I'm a Front-End Web Developer</h2>
+            <a href="" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="heading">About Me</div>
+        <div class="cont">
+            <div class="content">
+                <h3>I'm a Front-End Web Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aperiam modi placeat quo repudiandae
+                    voluptas atque dolor! Amet natus exercitationem iste error, blanditiis, aspernatur magnam accusamus
+                    facere dolorum quo expedita mollitia iure veritatis harum!.Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit. Ullam nam dolorum laborum
+                    alias, expedita delectus deleniti, totam perspiciatis sapiente possimus odit distinctio animi
+                    suscipit recusandae, excepturi quis consequatur. At, dolores.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eligendi iste porro sint fuga
+                    distinctio ut, earum saepe non laboriosam eaque quasi accusamus vero, laudantium praesentium iusto
+                    et totam. Odit quaerat maiores tempore veniam repudiandae ratione dolore cum repellat eius?</p>
+                <br>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam corporis magni aspernatur. Vero
+                    laudantium culpa eos quas, facilis quisquam doloremque ipsum illum esse corrupti fugiat possimus nam
+                    accusamus rerum nulla unde nobis. Consequatur, quam. Ullam est officia reiciendis omnis nesciunt
+                    amet, magni exercitationem ea, dignissimos beatae necessitatibus, velit totam et voluptate
+                    aspernatur? Est amet eos dolore.</p>
+            </div>
+            <div class="img">
+                <img src="img/img1.jpg" alt="Missing">
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="heading">
+            Our Services
+        </div>
+        <div class="cont">
+            <div class="servicesBx">
+                <img src="img/icon1.png" alt="">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt expedita culpa,
+                    aspernatur quas.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon2.png" alt="">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt expedita culpa,
+                    aspernatur quas.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon3.png" alt="">
+                <h2>Android Apk</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt expedita culpa,
+                    aspernatur quas.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon4.png" alt="">
+                <h2>Python</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt expedita culpa,
+                    aspernatur quas.</p>
+            </div>
+        </div>
+    </section>
+    <section class="work"></section>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("head");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
